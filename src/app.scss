@@ -1,0 +1,9 @@
+@use "./stylesheet/main.scss";
+
+.panel {
+    display: flex;
+    flex-direction: row;
+    &.col {
+        flex-direction: column;
+    }
+}
